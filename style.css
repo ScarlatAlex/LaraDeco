@@ -28,7 +28,7 @@ header li a {
 }
 
 header li a:hover {
-  color: royalblue;
+  color: #333;
 }
 
 header ul #contact a {
@@ -47,18 +47,31 @@ header ul #contact a:hover {
 }
 
 .active {
-  color: royalblue;
-  background-color: rgb(234, 235, 236);
+  color: #fff;
+  background-color: rgb(16, 112, 27);
   border-radius: 30px;
 }
 
 .active:hover {
-  background-color: royalblue;
-  color: white;
+  background-color: gold;
+  color: #333;
   transition: 0.3s ease;
 }
 
 #logo {
   float: left;
   margin-top: -30px;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 gold;
+  color: white;
+  border-radius: 30px;
 }
