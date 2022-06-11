@@ -17,7 +17,7 @@ header {
 
 header li {
   display: inline;
-  padding-left: 15px;
+  padding-left: 45px;
 }
 
 header li a {
@@ -56,4 +56,9 @@ header ul #contact a:hover {
   background-color: royalblue;
   color: white;
   transition: 0.3s ease;
+}
+
+#logo {
+  float: left;
+  margin-top: -30px;
 }
