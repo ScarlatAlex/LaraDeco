@@ -17,10 +17,43 @@ header {
 
 header li {
   display: inline;
-  padding-left: 40px;
+  padding-left: 15px;
 }
 
 header li a {
   color: #333;
   text-decoration: none;
+  padding: 15px;
+  transition: 0.3s ease;
+}
+
+header li a:hover {
+  color: royalblue;
+}
+
+header ul #contact a {
+  color: #fff;
+  background-color: royalblue;
+  border-radius: 30px;
+  float: right;
+  position: relative;
+  top: -15px;
+  transition: 0.3s ease;
+}
+
+header ul #contact a:hover {
+  background-color: gold;
+  color: #333;
+}
+
+.active {
+  color: royalblue;
+  background-color: rgb(234, 235, 236);
+  border-radius: 30px;
+}
+
+.active:hover {
+  background-color: royalblue;
+  color: white;
+  transition: 0.3s ease;
 }
