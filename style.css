@@ -44,6 +44,7 @@ header ul #contact a {
 header ul #contact a:hover {
   background-color: gold;
   color: #333;
+  box-shadow: 0 0 5px gold;
 }
 
 .active {
@@ -56,6 +57,7 @@ header ul #contact a:hover {
   background-color: gold;
   color: #333;
   transition: 0.3s ease;
+  box-shadow: 0 0 5px gold;
 }
 
 #logo {
