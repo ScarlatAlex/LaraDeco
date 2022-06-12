@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+/* Start navigation bar */
 
 body {
   font-family: "Joan", serif;
@@ -7,12 +9,15 @@ body {
   margin: 0;
   overflow-x: hidden;
   text-align: center;
-  box-shadow: 0 0 10px rgb(16, 112, 27);
+  height: auto;
+  width: auto;
 }
 
 header {
   background-color: #fff;
   padding: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgb(16, 112, 27);
 }
 
 header li {
@@ -77,4 +82,83 @@ a:hover {
   box-shadow: inset 100px 0 0 0 gold;
   color: white;
   border-radius: 30px;
+}
+
+/* End navigation bar */
+
+/* Start welcome section */
+
+.welcome-section {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 200px;
+  font-size: 35px;
+  font-family: "Dancing Script", cursive;
+  background-image: url(/images/);
+  color: #333;
+  justify-content: center;
+}
+
+#h1 {
+  padding-top: 0;
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-shadow: 5px 5px 5px gray;
+}
+
+#h2 {
+  margin: 0;
+  text-shadow: 5px 5px 5px gray;
+}
+
+.border {
+  display: inline-block;
+  border-bottom: solid rgb(16, 112, 27);
+  width: 800px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+/* End of welcome section */
+
+/* text  design*/
+
+.text-design {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 810px;
+  font-family: "Dancing Script", cursive;
+}
+
+#Lara-size {
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+
+/* end text design */
+
+/* Start cards */
+.card-box {
+  display: flex;
+  justify-content: center;
+}
+
+.card-style {
+  margin: 5px;
+  box-shadow: 0 0 5px black;
+  width: 300px;
+  height: 450px;
+}
+
+/* End of cards */
+
+/* Team */
+.team {
+}
+
+.team-image {
+  width: 1000px;
+  height: 738px;
+  box-shadow: 0 0 5px gray;
 }
